@@ -3,11 +3,13 @@ body {
   font-family: Helvetica, sans-serif;
   background-color: #e4f9ff;
   color: #0fabbc;
+  padding: 30px;
+  line-height: 1.5;
 }
 
-#mainContainer {
+/* #mainContainer {
   margin: 30px;
-}
+} */
 
 #profilePic img {
   width: 200px;
@@ -25,7 +27,7 @@ a:visited {
 
 h2 {
   color: #fa163f;
-  font-weight: 100;
+  font-weight: 400;
   font-size: 18px;
   /* text-shadow: magenta 0 2px 3px; */
 }
@@ -36,7 +38,7 @@ h3 {
   color: #fa163f;
   /* text-shadow: magenta 0 2px 3px;
   padding: 5px 0; */
-  font-weight: 100;
+  font-weight: 400;
   margin: 10px 0;
 }
 
@@ -48,6 +50,7 @@ th {
 
 td {
   padding-right: 20px;
+  vertical-align: middle;
 }
 
 hr {
